@@ -1,5 +1,11 @@
 import { Metadata } from 'next';
-import { Header, Main } from '@components/components';
+import {
+    Header,
+    Main,
+    Brand,
+    Navigation,
+    NavigationItem,
+} from '@components/components';
 
 export const metadata: Metadata = {
     title: 'Authy',
@@ -11,7 +17,10 @@ export default function Authy() {
     return (
         <div>
             <Header>
-                <></>
+                <Brand />
+                <Navigation>
+                    <NavigationItem />
+                </Navigation>
             </Header>
             <Main />
         </div>
