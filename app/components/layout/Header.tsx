@@ -1,3 +1,3 @@
-export default function Header() {
-    return <header></header>;
+export default function Header({ children }: HeaderProps) {
+    return <header>{children}</header>;
 }

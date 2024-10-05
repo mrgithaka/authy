@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 export default function Authy() {
     return (
         <div>
-            <Header />
+            <Header>
+                <></>
+            </Header>
             <Main />
         </div>
     );
