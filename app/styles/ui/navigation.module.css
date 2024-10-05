@@ -1,8 +1,44 @@
 .navigation {
     flex-grow: 1;
+}
+
+.navigation_large {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
     gap: 30px;
+}
+
+.navigation_small {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .navigation_large {
+        display: none;
+    }
+    .navigation_small {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .navigation_small_buttons img {
+        width: 25px;
+        height: auto;
+    }
+    .navigation_small_menu {
+        position: absolute;
+        top: 75px;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 50px;
+        width: 50%;
+        padding-top: 20px;
+    }
 }
