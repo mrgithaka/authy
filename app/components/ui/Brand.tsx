@@ -7,8 +7,8 @@ export default function Brand() {
             <Image
                 src={'./logo.svg'}
                 alt='Authy Logo'
-                width={35}
-                height={35}
+                width={30}
+                height={30}
             />
             <p>Authy</p>
         </div>

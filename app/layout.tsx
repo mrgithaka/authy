@@ -1,7 +1,7 @@
 import localFont from 'next/font/local';
 import './globals.css';
 
-const primaryFont = localFont({ src: './fonts/work_sans/normal.ttf' });
+const primaryFont = localFont({ src: './fonts/albert_sans/normal.ttf' });
 
 export default function RootLayout({
     children,
