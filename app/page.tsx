@@ -19,7 +19,14 @@ export default function Authy() {
             <Header>
                 <Brand />
                 <Navigation>
-                    <NavigationItem />
+                    <NavigationItem
+                        link='/'
+                        name='Landing'
+                    />
+                    <NavigationItem
+                        link='/authy/authentication/login'
+                        name='Account'
+                    />
                 </Navigation>
             </Header>
             <Main />
