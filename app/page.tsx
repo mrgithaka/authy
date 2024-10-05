@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import Header from './components/layout/Header';
-import Main from './components/layout/Main';
+import { Header, Main } from './components/components';
 
 export const metadata: Metadata = {
     title: 'Authy',
