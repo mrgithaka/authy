@@ -30,7 +30,9 @@ export default function Authy() {
                     />
                 </Navigation>
             </Header>
-            <Main />
+            <Main>
+                <></>
+            </Main>
         </div>
     );
 }
