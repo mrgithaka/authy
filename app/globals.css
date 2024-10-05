@@ -1,3 +1,7 @@
+:root {
+    --carrara-white: #f3f4ef;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -8,4 +12,5 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: var(--carrara-white);
 }

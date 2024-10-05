@@ -22,6 +22,7 @@ export default function Authy() {
                     <NavigationItem
                         link='/'
                         name='Landing'
+                        active
                     />
                     <NavigationItem
                         link='/authy/authentication/login'

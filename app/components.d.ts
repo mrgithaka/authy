@@ -10,6 +10,7 @@ declare global {
     interface NavigationItemProps {
         link: string;
         name: string;
+        active?: boolean;
     }
 }
 export {};
