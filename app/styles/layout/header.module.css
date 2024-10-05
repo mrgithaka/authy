@@ -14,3 +14,27 @@
         width: calc(100% - var(--mobile-edges) - var(--mobile-edges));
     }
 }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .header {
+        padding-left: var(--tablet-edges);
+        padding-right: var(--tablet-edges);
+        width: calc(100% - var(--tablet-edges) - var(--tablet-edges));
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .header {
+        padding-left: var(--desktop-edges);
+        padding-right: var(--desktop-edges);
+        width: calc(100% - var(--desktop-edges) - var(--desktop-edges));
+    }
+}
+
+@media (min-width: 1440px) {
+    .header {
+        padding-left: var(--large-edges);
+        padding-right: var(--large-edges);
+        width: calc(100% - var(--large-edges) - var(--large-edges));
+    }
+}
