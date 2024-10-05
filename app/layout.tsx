@@ -1,4 +1,7 @@
+import localFont from 'next/font/local';
 import './globals.css';
+
+const primaryFont = localFont({ src: 'name' });
 
 export default function RootLayout({
     children,
@@ -14,7 +17,7 @@ export default function RootLayout({
                     type='image/x-icon'
                 />
             </head>
-            <body>{children}</body>
+            <body className={primaryFont.className}>{children}</body>
         </html>
     );
 }
