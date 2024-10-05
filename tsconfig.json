@@ -21,6 +21,7 @@
         "paths": {
             "@components/*": ["./app/components/*"],
             "@styles/*": ["./app/styles/*"],
+            "@fonts/*": ["./app/fonts/*"],
             "@/*": ["./*"]
         }
     },
