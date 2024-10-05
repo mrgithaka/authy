@@ -5,6 +5,7 @@ export default function NavigationItem({
     link,
     name,
     active,
+    style,
 }: NavigationItemProps) {
     return (
         <div>
@@ -12,9 +13,10 @@ export default function NavigationItem({
                 className={
                     active
                         ? NavigationItemStyles.navigation_item_active
-                        : NavigationItemStyles.navigation_item
+                        : `${NavigationItemStyles.navigation_item} ${style}`
                 }
-                href={link}>
+                href={link}
+            >
                 {name}
             </Link>
         </div>

@@ -11,6 +11,7 @@ declare global {
         link: string;
         name: string;
         active?: boolean;
+        style?: string;
     }
     interface MainProps {
         children: ReactNode;

@@ -15,12 +15,13 @@ export default function Hero() {
             <h2>Next.js Authentication</h2>
             <div className={HeroStyles.hero_buttons}>
                 <NavigationItem
-                    name='Documentation'
+                    name='Docs'
                     link=''
                 />
                 <NavigationItem
                     name='Repository'
                     link=''
+                    style={HeroStyles.hero_button_dark}
                 />
             </div>
         </section>
