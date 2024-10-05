@@ -1,3 +1,9 @@
+import Footer from './Footer';
+
 export default function Main() {
-    return <main></main>;
+    return (
+        <main>
+            <Footer />
+        </main>
+    );
 }

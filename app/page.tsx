@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import Header from './components/layout/Header';
+import Main from './components/layout/Main';
 
 export const metadata: Metadata = {
     title: 'Authy',
@@ -7,5 +9,10 @@ export const metadata: Metadata = {
 };
 
 export default function Authy() {
-    return <div></div>;
+    return (
+        <div>
+            <Header />
+            <Main />
+        </div>
+    );
 }
