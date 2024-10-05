@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import { BrandStyles } from '@styles/styles';
 
 export default function Brand() {
     return (
-        <div>
+        <div className={BrandStyles.brand}>
             <Image
                 src={'./logo.svg'}
                 alt='Authy Logo'
