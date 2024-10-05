@@ -35,4 +35,11 @@
     background-color: black;
     color: white;
     font-weight: 700;
+    border: 2px solid black;
+}
+
+.hero_button_dark:hover {
+    font-weight: 700;
+    background-color: transparent;
+    color: black;
 }
