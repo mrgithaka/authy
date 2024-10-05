@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import { NavigationItem } from '@components/components';
+import { HeroStyles } from '@styles/styles';
 
 export default function Hero() {
     return (
-        <section>
+        <section id={HeroStyles.hero}>
             <Image
                 src={'./logo.svg'}
                 alt='Authy Logo'
@@ -12,7 +13,7 @@ export default function Hero() {
             />
             <h1>Authy</h1>
             <h2>Next.js Authentication</h2>
-            <div>
+            <div className={HeroStyles.hero_buttons}>
                 <NavigationItem
                     name='Documentation'
                     link=''
