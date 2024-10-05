@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Header, Main } from './components/components';
+import { Header, Main } from '@components/components';
 
 export const metadata: Metadata = {
     title: 'Authy',
