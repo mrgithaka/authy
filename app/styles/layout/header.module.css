@@ -36,5 +36,6 @@
         padding-left: var(--large-edges);
         padding-right: var(--large-edges);
         width: calc(100% - var(--large-edges) - var(--large-edges));
+        max-width: 1440px;
     }
 }
