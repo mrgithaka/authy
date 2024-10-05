@@ -6,3 +6,11 @@
     align-items: center;
     justify-content: flex-start;
 }
+
+@media (max-width: 600px) {
+    .header {
+        padding-left: var(--mobile-edges);
+        padding-right: var(--mobile-edges);
+        width: calc(100% - var(--mobile-edges) - var(--mobile-edges));
+    }
+}

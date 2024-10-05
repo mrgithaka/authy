@@ -1,5 +1,6 @@
 :root {
     --carrara-white: #f3f4ef;
+    --mobile-edges: clamp(0px, 5vw, 30px);
 }
 
 * {
