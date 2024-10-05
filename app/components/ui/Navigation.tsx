@@ -32,9 +32,13 @@ export default function Navigation({ children }: NavigationProps) {
                         />
                     )}
                 </div>
-                <div className={NavigationStyles.navigation_small_menu}>
-                    {children}
-                </div>
+                {menu ? (
+                    <div className={NavigationStyles.navigation_small_menu}>
+                        {children}
+                    </div>
+                ) : (
+                    <></>
+                )}
             </div>
         </nav>
     );
