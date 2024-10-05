@@ -6,7 +6,12 @@
     gap: 5px;
 }
 
+.brand img {
+    width: 40px;
+    height: auto;
+}
+
 .brand p {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
