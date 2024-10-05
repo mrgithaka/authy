@@ -5,6 +5,7 @@ import {
     Brand,
     Navigation,
     NavigationItem,
+    Hero,
 } from '@components/components';
 
 export const metadata: Metadata = {
@@ -31,7 +32,7 @@ export default function Authy() {
                 </Navigation>
             </Header>
             <Main>
-                <></>
+                <Hero />
             </Main>
         </div>
     );

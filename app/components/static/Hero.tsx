@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section>
             <Image
-                src={'./logo'}
+                src={'./logo.svg'}
                 alt='Authy Logo'
                 width={50}
                 height={50}
