@@ -18,14 +18,14 @@ export default function Navigation({ children }: NavigationProps) {
                 <div className={NavigationStyles.navigation_small_buttons}>
                     {menu ? (
                         <Image
-                            src={'./icons/close.svg'}
+                            src={'/icons/close.svg'}
                             alt='Menu Icon'
                             width={40}
                             height={40}
                         />
                     ) : (
                         <Image
-                            src={'./icons/menu.svg'}
+                            src={'/icons/menu.svg'}
                             alt='Menu Icon'
                             width={40}
                             height={40}

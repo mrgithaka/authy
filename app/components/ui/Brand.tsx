@@ -5,7 +5,7 @@ export default function Brand() {
     return (
         <div className={BrandStyles.brand}>
             <Image
-                src={'./logo.svg'}
+                src={'/logo.svg'}
                 alt='Authy Logo'
                 width={30}
                 height={30}
