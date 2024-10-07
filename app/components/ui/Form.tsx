@@ -1,3 +1,3 @@
-export default function Form() {
+export default function Form({ children }: FormProps) {
     return <form action=''></form>;
 }

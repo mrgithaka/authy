@@ -19,5 +19,8 @@ declare global {
     interface AuthenticationProps {
         children: ReactNode;
     }
+    interface FormProps {
+        children: ReactNode;
+    }
 }
 export {};

@@ -11,6 +11,7 @@ import {
     NavigationItem,
     Main,
     Authentication,
+    Form,
 } from '@components/components';
 
 export default function Login() {
@@ -36,7 +37,9 @@ export default function Login() {
             </Header>
             <Main>
                 <Authentication>
-                    <></>
+                    <Form>
+                        <></>
+                    </Form>
                 </Authentication>
             </Main>
         </div>
