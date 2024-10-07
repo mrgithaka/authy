@@ -35,7 +35,9 @@ export default function Login() {
                 </Navigation>
             </Header>
             <Main>
-                <Authentication />
+                <Authentication>
+                    <></>
+                </Authentication>
             </Main>
         </div>
     );

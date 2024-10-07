@@ -1,3 +1,3 @@
-export default function Authentication() {
-    return <div></div>;
+export default function Authentication({ children }: AuthenticationProps) {
+    return <div>{children}</div>;
 }
