@@ -6,3 +6,4 @@ export { default as Navigation } from './ui/Navigation';
 export { default as NavigationItem } from './ui/core/NavigationItem';
 export { default as Hero } from './static/Hero';
 export { default as Authentication } from './layout/Authentication';
+export { default as Form } from './ui/Form';

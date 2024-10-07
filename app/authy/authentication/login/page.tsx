@@ -10,6 +10,7 @@ import {
     Navigation,
     NavigationItem,
     Main,
+    Authentication,
 } from '@components/components';
 
 export default function Login() {
@@ -34,7 +35,7 @@ export default function Login() {
                 </Navigation>
             </Header>
             <Main>
-                <></>
+                <Authentication />
             </Main>
         </div>
     );
