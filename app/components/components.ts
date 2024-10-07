@@ -7,3 +7,4 @@ export { default as NavigationItem } from './ui/core/NavigationItem';
 export { default as Hero } from './static/Hero';
 export { default as Authentication } from './layout/Authentication';
 export { default as Form } from './ui/Form';
+export { default as Input } from './ui/core/Input';
